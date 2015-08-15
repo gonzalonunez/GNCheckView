@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'GNCheckView_Example', :exclusive => true do
+  pod "GNCheckView", :path => "../"
+end
+
+target 'GNCheckView_Tests', :exclusive => true do
+  pod "GNCheckView", :path => "../"
+
+  
+end
