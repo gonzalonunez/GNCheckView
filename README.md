@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/GNCheckView.svg?style=flat)](http://cocoapods.org/pods/GNCheckView)
 [![Platform](https://img.shields.io/cocoapods/p/GNCheckView.svg?style=flat)](http://cocoapods.org/pods/GNCheckView)
 
+GNCheckView is a UIView subclass that neatly animates between a checked and an unchecked state. Serves as a nice alternative to UITableViewAccessoryTypeCheckmark or for any other of your check-marking needs!
+
+![Screenshot](GNCheckView-Checked.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
