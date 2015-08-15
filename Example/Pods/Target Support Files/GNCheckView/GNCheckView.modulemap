@@ -1,0 +1,6 @@
+framework module GNCheckView {
+  umbrella header "GNCheckView-umbrella.h"
+
+  export *
+  module * { export * }
+}

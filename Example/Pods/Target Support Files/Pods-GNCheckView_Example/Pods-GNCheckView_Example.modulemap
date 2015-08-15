@@ -1,0 +1,6 @@
+framework module Pods_GNCheckView_Example {
+  umbrella header "Pods-GNCheckView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

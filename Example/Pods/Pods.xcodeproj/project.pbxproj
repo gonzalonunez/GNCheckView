@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B83A6FA73D396C59F186D8886BD4AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381E5C12617696D3543F5CC0802B65E9 /* Foundation.framework */; };
+		4B82AC140800EDF2A6AC01A723B1A199 /* GNCheckView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB8EDBB086E9D5E016713DF5C348A1 /* GNCheckView.bundle */; };
+		5F2AD2499C2C24EF97267139C906C523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381E5C12617696D3543F5CC0802B65E9 /* Foundation.framework */; };
+		73B233F97BB1F3EB0C518F4FA8D6C14B /* GNCheckView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C21AA5BE4F83042370D0B7FD96AB2D28 /* GNCheckView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC6EE91AB283F59D3BC0AE100B1B5ED /* Pods-GNCheckView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B0E71584868C29170039FD2CCED497 /* Pods-GNCheckView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB775EF1B7FF60C00C5053C /* GNCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB775EE1B7FF60C00C5053C /* GNCheckView.swift */; };
+		BAF3DEEB7F9E48B3F38A74CE77780565 /* Pods-GNCheckView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A1ED5C2819B77AACE0CFF6CF5BD08 /* Pods-GNCheckView_Tests-dummy.m */; };
+		E3FFAC6A9F747CD941DC11E898D8023F /* Pods-GNCheckView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63C7B535E7E7B87DD36CD27344F91C /* Pods-GNCheckView_Example-dummy.m */; };
+		E8239EB8FB7B90B280BFB5DF90982283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381E5C12617696D3543F5CC0802B65E9 /* Foundation.framework */; };
+		F116213A5F788215CDD12251F450F7F2 /* Pods-GNCheckView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB46B78764D3B535506252D49312BEE6 /* Pods-GNCheckView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E414AE91BD76DBDB070AC5B5CC9598 /* GNCheckView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E5C6381897D2ABDC35F820E949277 /* GNCheckView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16E8952300789B72FE0AF3CEC828FD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C1CD8070B773BED00EC3DC66149C81;
+			remoteInfo = GNCheckView;
+		};
+		4E8CAF5D495C462BF3122B8EC60FD4CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1C4865A38965D42C84831E656A5C29;
+			remoteInfo = "GNCheckView-GNCheckView";
+		};
+		E8D26FBAE7DA39246C7E91CAD3FD2162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C1CD8070B773BED00EC3DC66149C81;
+			remoteInfo = GNCheckView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1ED7FD0375C8AFF6569D5ED354AA89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1228B08C9C2606F019C73F95335A152B /* Pods_GNCheckView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNCheckView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B0E71584868C29170039FD2CCED497 /* Pods-GNCheckView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNCheckView_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B52B833F0AF75999B6AF72391148470 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C63C7B535E7E7B87DD36CD27344F91C /* Pods-GNCheckView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNCheckView_Example-dummy.m"; sourceTree = "<group>"; };
+		22E3019EACDE6EE6B4D31A982D660872 /* GNCheckView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GNCheckView.modulemap; sourceTree = "<group>"; };
+		2BDB8EDBB086E9D5E016713DF5C348A1 /* GNCheckView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNCheckView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D41B9A822580D6BC43A55D5A8244211 /* Pods-GNCheckView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNCheckView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35A3A46C7A5359DD7F020BDD83754720 /* GNCheckView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNCheckView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381E5C12617696D3543F5CC0802B65E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46E99E44CC84A6DDD5FBEE38A4CDCDDE /* GNCheckView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNCheckView-prefix.pch"; sourceTree = "<group>"; };
+		48AA63A0B4913C51D6ECC5A375C2262A /* Pods-GNCheckView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNCheckView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C3A1ED5C2819B77AACE0CFF6CF5BD08 /* Pods-GNCheckView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNCheckView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5266E3748735E81E004055ED620C54C7 /* Pods-GNCheckView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNCheckView_Example-resources.sh"; sourceTree = "<group>"; };
+		56ECCCD46A85C292F6F2375C68D8FA21 /* Pods-GNCheckView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNCheckView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		658EC86636AD508FFBB7F29BF53DBD19 /* Pods-GNCheckView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNCheckView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78470647D14D240E8987A891C9CE8C3D /* Pods-GNCheckView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNCheckView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		792D2A19EC91C799245D6D7157B2CF11 /* Pods-GNCheckView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GNCheckView_Tests.modulemap"; sourceTree = "<group>"; };
+		8D258A476041AE456E0812D7E2DBA8EC /* Pods-GNCheckView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNCheckView_Tests-resources.sh"; sourceTree = "<group>"; };
+		9A9E5C6381897D2ABDC35F820E949277 /* GNCheckView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNCheckView-dummy.m"; sourceTree = "<group>"; };
+		9FB775EE1B7FF60C00C5053C /* GNCheckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNCheckView.swift; sourceTree = "<group>"; };
+		B520CB27EB30394CEDF742D2F16E147F /* Pods-GNCheckView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNCheckView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0599AE0E31D9E2C0A979282F30C5ECB /* GNCheckView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GNCheckView-Private.xcconfig"; sourceTree = "<group>"; };
+		C21AA5BE4F83042370D0B7FD96AB2D28 /* GNCheckView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNCheckView-umbrella.h"; sourceTree = "<group>"; };
+		C74BB22EB3404EB206397E24A325F456 /* Pods-GNCheckView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GNCheckView_Example.modulemap"; sourceTree = "<group>"; };
+		CA12603093B140BA1E3F1B80B445CEE8 /* Pods-GNCheckView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNCheckView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D22A321BC0877D98202C1199FDA81494 /* Pods-GNCheckView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNCheckView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DEECFB3120EC70A0E957FEB8C4DB294F /* Pods-GNCheckView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNCheckView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F3872791E887C1F05BB8F8F47C287C /* Pods_GNCheckView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNCheckView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95E8ADBEB4EF674B65858E5FBF05918 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA28779D3DBE2CB33070933CCB5DD45 /* Pods-GNCheckView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNCheckView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8C47E2107D42CA5106C208137E73533 /* GNCheckView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNCheckView.xcconfig; sourceTree = "<group>"; };
+		FB46B78764D3B535506252D49312BEE6 /* Pods-GNCheckView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNCheckView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CB140152BC227739C4CBC5E4C9CD4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8239EB8FB7B90B280BFB5DF90982283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7324351333AFB81885B99010BBA6534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2AD2499C2C24EF97267139C906C523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1F133A146FEBA8768B536ADF37E195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5014D2D12D21F484C79061EF471B5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B83A6FA73D396C59F186D8886BD4AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169612E67980D076411668E5AB61209E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B05FDBB2C5AE774D3D5E4419A8AC3F78 /* GNCheckView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3D6210F3A7E34CA43A448BE1CDD72156 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				593E33DBCC55C74206BBE8F6E5405754 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				381E5C12617696D3543F5CC0802B65E9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		593E33DBCC55C74206BBE8F6E5405754 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9FB775EE1B7FF60C00C5053C /* GNCheckView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				169612E67980D076411668E5AB61209E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F63EF194FDDC99BFE29CA09B155FAD58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A90B5A5A20429F2C66E41ED8F0F34CF3 /* Pods-GNCheckView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0D1ED7FD0375C8AFF6569D5ED354AA89 /* Info.plist */,
+				C74BB22EB3404EB206397E24A325F456 /* Pods-GNCheckView_Example.modulemap */,
+				56ECCCD46A85C292F6F2375C68D8FA21 /* Pods-GNCheckView_Example-acknowledgements.markdown */,
+				78470647D14D240E8987A891C9CE8C3D /* Pods-GNCheckView_Example-acknowledgements.plist */,
+				1C63C7B535E7E7B87DD36CD27344F91C /* Pods-GNCheckView_Example-dummy.m */,
+				B520CB27EB30394CEDF742D2F16E147F /* Pods-GNCheckView_Example-frameworks.sh */,
+				5266E3748735E81E004055ED620C54C7 /* Pods-GNCheckView_Example-resources.sh */,
+				13B0E71584868C29170039FD2CCED497 /* Pods-GNCheckView_Example-umbrella.h */,
+				DEECFB3120EC70A0E957FEB8C4DB294F /* Pods-GNCheckView_Example.debug.xcconfig */,
+				CA12603093B140BA1E3F1B80B445CEE8 /* Pods-GNCheckView_Example.release.xcconfig */,
+			);
+			name = "Pods-GNCheckView_Example";
+			path = "Target Support Files/Pods-GNCheckView_Example";
+			sourceTree = "<group>";
+		};
+		B05FDBB2C5AE774D3D5E4419A8AC3F78 /* GNCheckView */ = {
+			isa = PBXGroup;
+			children = (
+				3D6210F3A7E34CA43A448BE1CDD72156 /* Pod */,
+				C3B74F06D22BE222F9625D238844782B /* Support Files */,
+			);
+			name = GNCheckView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B699A8EDA26E26DFA3F168F1446D7456 /* Pods-GNCheckView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E95E8ADBEB4EF674B65858E5FBF05918 /* Info.plist */,
+				792D2A19EC91C799245D6D7157B2CF11 /* Pods-GNCheckView_Tests.modulemap */,
+				658EC86636AD508FFBB7F29BF53DBD19 /* Pods-GNCheckView_Tests-acknowledgements.markdown */,
+				EAA28779D3DBE2CB33070933CCB5DD45 /* Pods-GNCheckView_Tests-acknowledgements.plist */,
+				4C3A1ED5C2819B77AACE0CFF6CF5BD08 /* Pods-GNCheckView_Tests-dummy.m */,
+				D22A321BC0877D98202C1199FDA81494 /* Pods-GNCheckView_Tests-frameworks.sh */,
+				8D258A476041AE456E0812D7E2DBA8EC /* Pods-GNCheckView_Tests-resources.sh */,
+				FB46B78764D3B535506252D49312BEE6 /* Pods-GNCheckView_Tests-umbrella.h */,
+				2D41B9A822580D6BC43A55D5A8244211 /* Pods-GNCheckView_Tests.debug.xcconfig */,
+				48AA63A0B4913C51D6ECC5A375C2262A /* Pods-GNCheckView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GNCheckView_Tests";
+			path = "Target Support Files/Pods-GNCheckView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B74F06D22BE222F9625D238844782B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E3019EACDE6EE6B4D31A982D660872 /* GNCheckView.modulemap */,
+				F8C47E2107D42CA5106C208137E73533 /* GNCheckView.xcconfig */,
+				C0599AE0E31D9E2C0A979282F30C5ECB /* GNCheckView-Private.xcconfig */,
+				9A9E5C6381897D2ABDC35F820E949277 /* GNCheckView-dummy.m */,
+				46E99E44CC84A6DDD5FBEE38A4CDCDDE /* GNCheckView-prefix.pch */,
+				C21AA5BE4F83042370D0B7FD96AB2D28 /* GNCheckView-umbrella.h */,
+				1B52B833F0AF75999B6AF72391148470 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GNCheckView";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDB8EDBB086E9D5E016713DF5C348A1 /* GNCheckView.bundle */,
+				35A3A46C7A5359DD7F020BDD83754720 /* GNCheckView.framework */,
+				1228B08C9C2606F019C73F95335A152B /* Pods_GNCheckView_Example.framework */,
+				E0F3872791E887C1F05BB8F8F47C287C /* Pods_GNCheckView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63EF194FDDC99BFE29CA09B155FAD58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A90B5A5A20429F2C66E41ED8F0F34CF3 /* Pods-GNCheckView_Example */,
+				B699A8EDA26E26DFA3F168F1446D7456 /* Pods-GNCheckView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BE66D58EF2F7A5FCC3021FA77F16B2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B233F97BB1F3EB0C518F4FA8D6C14B /* GNCheckView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBFA38CB834E4CE5DCC58CC89E67C2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC6EE91AB283F59D3BC0AE100B1B5ED /* Pods-GNCheckView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20D88B3CAC2DEBFEDE714C264DDC8CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F116213A5F788215CDD12251F450F7F2 /* Pods-GNCheckView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B58C9808623C7716ACE0C92933A03B5 /* Pods-GNCheckView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7967A11FF1F61821BA8695268F8C27CD /* Build configuration list for PBXNativeTarget "Pods-GNCheckView_Tests" */;
+			buildPhases = (
+				E98081B638C181FEDB48983E91CE2347 /* Sources */,
+				A7324351333AFB81885B99010BBA6534 /* Frameworks */,
+				D20D88B3CAC2DEBFEDE714C264DDC8CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F900556FED8280E1E4D759D6A4B5D294 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNCheckView_Tests";
+			productName = "Pods-GNCheckView_Tests";
+			productReference = E0F3872791E887C1F05BB8F8F47C287C /* Pods_GNCheckView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBC44E0DF463BBE8711B295C16AF2310 /* Pods-GNCheckView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E3344A0A2B314267FFC1C3D3552EE3 /* Build configuration list for PBXNativeTarget "Pods-GNCheckView_Example" */;
+			buildPhases = (
+				2D966C0C5987B2CB4118063E07DCDA51 /* Sources */,
+				E5014D2D12D21F484C79061EF471B5C0 /* Frameworks */,
+				8DBFA38CB834E4CE5DCC58CC89E67C2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D498375DF3DCA08DAB1BDA6C0211A725 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNCheckView_Example";
+			productName = "Pods-GNCheckView_Example";
+			productReference = 1228B08C9C2606F019C73F95335A152B /* Pods_GNCheckView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE1C4865A38965D42C84831E656A5C29 /* GNCheckView-GNCheckView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECFE3575C28B43F00BC1657951CDF7F /* Build configuration list for PBXNativeTarget "GNCheckView-GNCheckView" */;
+			buildPhases = (
+				8BBE5A2D3D56B74EEB73E550B6CD8C88 /* Sources */,
+				DC1F133A146FEBA8768B536ADF37E195 /* Frameworks */,
+				501EAF8A44EDCC1C6D2E0FE7A62F0F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GNCheckView-GNCheckView";
+			productName = "GNCheckView-GNCheckView";
+			productReference = 2BDB8EDBB086E9D5E016713DF5C348A1 /* GNCheckView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F8C1CD8070B773BED00EC3DC66149C81 /* GNCheckView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727854FEBC42E34765E17187168C8CD0 /* Build configuration list for PBXNativeTarget "GNCheckView" */;
+			buildPhases = (
+				236352311833DBAA839DCBDA210A4909 /* Sources */,
+				1CB140152BC227739C4CBC5E4C9CD4C7 /* Frameworks */,
+				E62C727669259F59E8E064B79AF83537 /* Resources */,
+				6BE66D58EF2F7A5FCC3021FA77F16B2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEE8BE6A8687EE52CEDD60E0F668E67 /* PBXTargetDependency */,
+			);
+			name = GNCheckView;
+			productName = GNCheckView;
+			productReference = 35A3A46C7A5359DD7F020BDD83754720 /* GNCheckView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C1CD8070B773BED00EC3DC66149C81 /* GNCheckView */,
+				EE1C4865A38965D42C84831E656A5C29 /* GNCheckView-GNCheckView */,
+				CBC44E0DF463BBE8711B295C16AF2310 /* Pods-GNCheckView_Example */,
+				5B58C9808623C7716ACE0C92933A03B5 /* Pods-GNCheckView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501EAF8A44EDCC1C6D2E0FE7A62F0F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62C727669259F59E8E064B79AF83537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B82AC140800EDF2A6AC01A723B1A199 /* GNCheckView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236352311833DBAA839DCBDA210A4909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB775EF1B7FF60C00C5053C /* GNCheckView.swift in Sources */,
+				F8E414AE91BD76DBDB070AC5B5CC9598 /* GNCheckView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D966C0C5987B2CB4118063E07DCDA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FFAC6A9F747CD941DC11E898D8023F /* Pods-GNCheckView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBE5A2D3D56B74EEB73E550B6CD8C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98081B638C181FEDB48983E91CE2347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF3DEEB7F9E48B3F38A74CE77780565 /* Pods-GNCheckView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D498375DF3DCA08DAB1BDA6C0211A725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNCheckView;
+			target = F8C1CD8070B773BED00EC3DC66149C81 /* GNCheckView */;
+			targetProxy = 16E8952300789B72FE0AF3CEC828FD3B /* PBXContainerItemProxy */;
+		};
+		EBEE8BE6A8687EE52CEDD60E0F668E67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GNCheckView-GNCheckView";
+			target = EE1C4865A38965D42C84831E656A5C29 /* GNCheckView-GNCheckView */;
+			targetProxy = 4E8CAF5D495C462BF3122B8EC60FD4CE /* PBXContainerItemProxy */;
+		};
+		F900556FED8280E1E4D759D6A4B5D294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNCheckView;
+			target = F8C1CD8070B773BED00EC3DC66149C81 /* GNCheckView */;
+			targetProxy = E8D26FBAE7DA39246C7E91CAD3FD2162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0780BC5D17E0F399D4A12315F945DB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0599AE0E31D9E2C0A979282F30C5ECB /* GNCheckView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GNCheckView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0AE96690FB75C4C866FD869BEF5D0168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0599AE0E31D9E2C0A979282F30C5ECB /* GNCheckView-Private.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GNCheckView/GNCheckView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNCheckView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNCheckView/GNCheckView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GNCheckView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36524010EB79BE304469470FF60F7D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D41B9A822580D6BC43A55D5A8244211 /* Pods-GNCheckView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNCheckView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNCheckView_Tests/Pods-GNCheckView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GNCheckView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E35219DFBBBC80365A43DE5116B4297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0599AE0E31D9E2C0A979282F30C5ECB /* GNCheckView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GNCheckView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6AC163540BA7E6D5240AFB51EE26E88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0599AE0E31D9E2C0A979282F30C5ECB /* GNCheckView-Private.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GNCheckView/GNCheckView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNCheckView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNCheckView/GNCheckView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GNCheckView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E6D407C6A46A869853BB28A28EA8CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA12603093B140BA1E3F1B80B445CEE8 /* Pods-GNCheckView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNCheckView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNCheckView_Example/Pods-GNCheckView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GNCheckView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1077CB8A0C9080BBDD893EECFDC0AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEECFB3120EC70A0E957FEB8C4DB294F /* Pods-GNCheckView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNCheckView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNCheckView_Example/Pods-GNCheckView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GNCheckView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB96BC08C063CCB9BB73DDAA2C44F1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AA63A0B4913C51D6ECC5A375C2262A /* Pods-GNCheckView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNCheckView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNCheckView_Tests/Pods-GNCheckView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GNCheckView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECFE3575C28B43F00BC1657951CDF7F /* Build configuration list for PBXNativeTarget "GNCheckView-GNCheckView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0780BC5D17E0F399D4A12315F945DB95 /* Debug */,
+				4E35219DFBBBC80365A43DE5116B4297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E3344A0A2B314267FFC1C3D3552EE3 /* Build configuration list for PBXNativeTarget "Pods-GNCheckView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1077CB8A0C9080BBDD893EECFDC0AA5 /* Debug */,
+				6E6D407C6A46A869853BB28A28EA8CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727854FEBC42E34765E17187168C8CD0 /* Build configuration list for PBXNativeTarget "GNCheckView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE96690FB75C4C866FD869BEF5D0168 /* Debug */,
+				6AC163540BA7E6D5240AFB51EE26E88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7967A11FF1F61821BA8695268F8C27CD /* Build configuration list for PBXNativeTarget "Pods-GNCheckView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36524010EB79BE304469470FF60F7D8F /* Debug */,
+				BB96BC08C063CCB9BB73DDAA2C44F1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

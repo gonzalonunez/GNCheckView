@@ -1,0 +1,14 @@
+PODS:
+  - GNCheckView (0.1.0)
+
+DEPENDENCIES:
+  - GNCheckView (from `../`)
+
+EXTERNAL SOURCES:
+  GNCheckView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GNCheckView: 45f4ca25f81d15626abdbfc2297b8551e7ecc0fe
+
+COCOAPODS: 0.38.2

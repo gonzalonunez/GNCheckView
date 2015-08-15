@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import GNCheckView
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var checkButton: UIButton!
+    
+    @IBOutlet weak var checkView: GNCheckView!
+    
+    //MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        checkView.primaryColor = checkButton.backgroundColor!
+        checkView.secondaryColor = UIColor.whiteColor()
+        
+        checkButton.layer.cornerRadius = 5
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    //MARK: IBAction
 
+    @IBAction func handleCheckButton(sender: UIButton) {
+        let shouldCheck = !checkView.checked
+        checkView.check(shouldCheck, animated: true)
+        checkButton.setTitle(shouldCheck ? "Uncheck" : "Check", forState: .Normal)
+    }
+    
 }
+
 
