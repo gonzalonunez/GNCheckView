@@ -6,7 +6,7 @@
 
 GNCheckView is a UIView subclass that neatly animates between a checked and an unchecked state. Serves as a nice alternative to UITableViewAccessoryTypeCheckmark or for any other of your check-marking needs!
 
-+![Screenshot](https://github.com/gonzalonunez/GNCheckView/blob/master/Pod/Assets/GNCheckView-Check.gif)
+![Screenshot](https://github.com/gonzalonunez/GNCheckView/blob/master/Pod/Assets/GNCheckView-Check.gif)
 
 ## Usage
 
