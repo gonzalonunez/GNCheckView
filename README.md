@@ -17,7 +17,7 @@ Using GNCheckView is incredibly simple! It all comes down to one function:
 ```swift
 public func check(shouldCheck:Bool, animated:Bool)
 ```
-For the lazier people in life, here are a couple convinience functions!
+For the lazier people in life, here are a couple convenience functions!
 
 ```swift
 public func checkAnimated(animated:Bool)
