@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GNCheckView"
-  s.version          = "0.1.5"
+  s.version          = "0.1.7"
   s.summary          = "A UIView subclass that neatly animates between a checked and an unchecked state."
 
 # This description is used to generate tags and improve search results.
