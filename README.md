@@ -21,6 +21,7 @@ For the lazier people in life, here are a couple convinience functions!
 
 ```swift
 public func checkAnimated(animated:Bool)
+
 public func uncheckAnimated(animated:Bool)
 ```
 
