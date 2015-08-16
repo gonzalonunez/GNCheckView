@@ -119,17 +119,14 @@ import UIKit
 
         checkmarkLayer.removeFromSuperlayer()
         
-        let padding : CGFloat = 2
-        let width : CGFloat = min(layer.bounds.width, layer.bounds.height) - padding
-        
-        checkmarkLayer.bounds = CGRect(x: padding, y: padding, width: width, height: width)
+        checkmarkLayer.bounds = layer.bounds
         checkmarkLayer.position = CGPoint(x: CGRectGetMidX(layer.bounds), y: CGRectGetMidY(layer.bounds))
         
         let checkmarkPath = CGPathCreateMutable()
         
         CGPathMoveToPoint(checkmarkPath, nil, checkmarkLayer.bounds.midX - 4, checkmarkLayer.bounds.midY + 1)
         CGPathAddLineToPoint(checkmarkPath, nil, checkmarkLayer.bounds.midX, checkmarkLayer.bounds.midY + 6)
-        CGPathAddLineToPoint(checkmarkPath, nil, checkmarkLayer.bounds.maxX - checkmarkLayer.bounds.midX/2, checkmarkLayer.bounds.midY/2 + 1)
+        CGPathAddLineToPoint(checkmarkPath, nil, checkmarkLayer.bounds.midX + 7, checkmarkLayer.bounds.midY - 8.25)
         
         checkmarkLayer.path = checkmarkPath
         
