@@ -28,12 +28,12 @@ public func uncheckAnimated(animated:Bool)
 For the nitpickier people in life, GNCheckView also comes with several properties that each change the behavior.
 
 ```swift
-@IBInspectable public var primaryColor = UIColor.blackColor() {
+@IBInspectable public var primaryColor = UIColor.blackColor()
 ```
 This is the color that the checkmark is drawn in.
 
 ```swift
-@IBInspectable public var secondaryColor = UIColor.whiteColor() {
+@IBInspectable public var secondaryColor = UIColor.whiteColor()
 ```
 This is what serves as the backgroundColor of the view. See -invertsOnCheck for more.
 
