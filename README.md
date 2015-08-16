@@ -55,7 +55,7 @@ If true, once checked the view that switches the check to the secondaryColor and
 Finally, there's a boolean for you to check the state!
 
 ```swift
-public var checked : Bool {
+public var checked : Bool
 ```
 
 ## Installation
