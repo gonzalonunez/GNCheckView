@@ -60,10 +60,11 @@ public var checked : Bool
 
 ## Installation
 
-GNCheckView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+GNCheckView is available through [CocoaPods](http://cocoapods.org).
+To install it, simply add the following lines to your Podfile:
 
 ```ruby
+use_frameworks!
 pod "GNCheckView"
 ```
 
